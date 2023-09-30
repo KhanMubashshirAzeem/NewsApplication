@@ -18,11 +18,11 @@
 9. Calling and Managing the API calls in RequestManager.
 
   **If you are facing any error then add these dependencies of the same version**
-       // Picasso
-    implementation ("com.squareup.picasso:picasso:2.9.0") \n
-    // RetroFit
-    implementation("com.squareup.retrofit2:retrofit:2.9.0") \n
-    // Json converter
+     // Picasso \a
+    implementation ("com.squareup.picasso:picasso:2.9.0") 
+    // RetroFit \a
+    implementation("com.squareup.retrofit2:retrofit:2.9.0") 
+    // Json converter \a
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0") 
 
    
