@@ -18,6 +18,7 @@
 9. Calling and Managing the API calls in RequestManager.
 
   **If you are facing any error then add these dependencies of the same version**
+  
 // Picasso
 
 implementation ("com.squareup.picasso:picasso:2.9.0") 
