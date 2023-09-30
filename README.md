@@ -19,12 +19,15 @@
 
   **If you are facing any error then add these dependencies of the same version**
 // Picasso
+
 implementation ("com.squareup.picasso:picasso:2.9.0") 
 
 // Retrofit
+
 implementation("com.squareup.retrofit2:retrofit:2.9.0") 
 
 // Json converter
+
 implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
 
