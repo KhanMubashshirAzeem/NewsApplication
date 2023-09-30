@@ -17,13 +17,17 @@
 8. also we need a JSON converter for our retrofit https://github.com/square/retrofit/tree/master/retrofit-converters/gson
 9. Calling and Managing the API calls in RequestManager.
 
-  **If you are facing any error then add these dependencies of the same version** </br> 
-// Picasso </br>  
-implementation ("com.squareup.picasso:picasso:2.9.0") 
-// Retrofit </br>  
-implementation("com.squareup.retrofit2:retrofit:2.9.0") 
-// Json converter </br>  
-implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+  **If you are facing any error then add these dependencies of the same version** 
+// If you are facing any error, then add these dependencies of the same version
+// Picasso
+implementation("com.squareup.picasso:picasso:2.9.0")
+
+// Retrofit
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
+
+// Json converter
+implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+
 
    
    
