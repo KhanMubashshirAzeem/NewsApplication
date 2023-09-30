@@ -18,7 +18,7 @@
 9. Calling and Managing the API calls in RequestManager.
 
   **If you are facing any error then add these dependencies of the same version** <br>
-<span> // Picasso <be> </span>
+<span> // Picasso <br>
       implementation("com.squareup.picasso:picasso:2.9.0") <br>
       // Retrofit <br>
       implementation("com.squareup.retrofit2:retrofit:2.9.0") <br>
