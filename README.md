@@ -1,48 +1,57 @@
-# NewsApplication Using REST API
+Building a News Application Using REST API
 
-  **Get new API link is mentioned below**
-1. Register -> https://newsapi.org/
-2. Click on **Get API key**
-3. Paste the API key in string.xml.
-4. Go to the top headlines and copy the link from the **GET** method.
-5. Paste it in Postman https://www.postman.com/ -> my workspace -> history -> **GET**.
+Step 1: Get the API Key
 
-  **Now working in Android Studio**
-1. **activity_main.xml**
-2. **healine_list_title.xml**
-3. Created a **Model** for a response. 
-4. **CustomViewHolder.java** which is the **Adapter** class.
-5. **CustomAdapter.java**
-6. Use **Picasso Library** for loading images we are using -> https://github.com/square/picasso
-7. For managing the request we will use the **retrofit library** -> https://github.com/square/retrofit
-8. also we need a **JSON** converter for our retrofit https://github.com/square/retrofit/tree/master/retrofit-converters/gson
-9. Calling and Managing the API calls in **RequestManager.Java**.
+Register on newsapi.org.
+Click on "Get API key" and obtain your API key.
+Paste the API key in your strings.xml resource file.
 
-—-----------------------------------------------------------------------------------------------------------------------
-  **If you are facing any error then add these dependencies of the same version** <br>
-     // Picasso <br>
-      implementation("com.squareup.picasso:picasso:2.9.0") <br>
-      // Retrofit <br>
-      implementation("com.squareup.retrofit2:retrofit:2.9.0") <br>
-      // Json converter <br>
-      implementation("com.squareup.retrofit2:converter-gson:2.9.0") <br>
+Step 2: Testing the API
+Go to the top headlines section and copy the link from the GET method.
+Use a tool like Postman to paste the link and make a GET request to test the API.
+Setting Up Android Studio
 
-—-----------------------------------------------------------------------------------------------------------------------
+Step 3: Project Setup
+Create an activity_main.xml layout.
+Create a headline_list_title.xml layout.
+Define a model class to represent the API response.
+Implement a CustomViewHolder class for your RecyclerView adapter.
+Create a CustomAdapter class for your RecyclerView.
+Utilize the Picasso library for image loading.
+Use the Retrofit library for managing API requests.
+Add the JSON converter for Retrofit.
+Step 4: Dependencies
 
-10. For handling responses from **MainActivity.java** we make **OnFetchDataListener.java** which will be the Interface class.
-11. To manage our API calls, we use the RequestManager.java class and make a new method: **getNewsHeadlines**.
-12. Go to the MainActivity.java class and create the **RequestManager.java** class object.
-13. Add internet Permission in **AndroidManifest.xml**
-14. **Congratulations** we are **successfully** getting the news articles in our application.
+Ensure you have these dependencies with the same version:
+// Picasso
+implementation("com.squareup.picasso:picasso:2.9.0")
 
-**When the user clicks on any article the complete News should display in a new Activity**
-15. Make the **SelectListner.java** interface class and make the **OnNewsClicked** method.
-16. To implement the OnNewsClicked method we go to **CustomAdapter.java** class
-17. Now go to the **MainActivity.java** class and implement SelectListener.
-18. We need a new **Activity** to display the complete news so we make **NewsDetailsActivity**.
-19. Working in XML and .java of **NewsDetailsActivity**.
+// Retrofit
+implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
+// JSON converter
+implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 
-   
+Step 5: Handling API Responses
 
+Create an OnFetchDataListener interface for handling API responses.
+Implement the RequestManager.java class to manage API calls.
+Step 6: Making API Calls
 
+Implement the getNewsHeadlines method in RequestManager.java.
+Step 7: MainActivity Setup
+
+In the MainActivity.java class, create an instance of RequestManager.java.
+Add internet permission in your AndroidManifest.xml.
+Step 8: Displaying News Details
+
+Create a SelectListener.java interface with an OnNewsClicked method.
+Implement the OnNewsClicked method in the CustomAdapter.java class.
+In the MainActivity.java class, implement the SelectListener interface.
+Step 9: NewsDetailsActivity Setup
+
+Create a new activity, NewsDetailsActivity, to display complete news articles.
+Work on the XML and Java files for NewsDetailsActivity.
+Conclusion
+
+Congratulations! You've successfully built a news application using a REST API in Android Studio. This guide covers setting up the API, using libraries for image loading and API requests, handling responses, and displaying news articles with complete details.
