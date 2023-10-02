@@ -25,10 +25,13 @@ Add the JSON converter for Retrofit.
 Step 4: Dependencies
 
 Ensure you have these dependencies with the same version:
-// Picasso
+
+// Picasso: Images loading
+
 implementation("com.squareup.picasso:picasso:2.9.0")
 
-// Retrofit
+// Retrofit: Networking Library
+
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
 // JSON converter
