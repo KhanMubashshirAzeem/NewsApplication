@@ -59,9 +59,9 @@ Step 9: NewsDetailsActivity Setup
 Create a new activity, NewsDetailsActivity, to display complete news articles.
 Work on the XML and Java files for NewsDetailsActivity.
 
-step 10: Now we will Implement Categories in the **MainActivity** Activity.
+step 10: Implement Categories in the MainActivity Activity.
 
-Implement View.**OnClickListener** and method OnClick Method.
+Implement View OnClickListener and method OnClick Method.
 
 
 Conclusion: Congratulations! You've successfully built a news application using a REST API in Android Studio. This guide covers setting up the API, using libraries for image loading and API requests, handling responses, and displaying news articles with complete details.
