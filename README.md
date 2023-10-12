@@ -25,10 +25,13 @@ Add the JSON converter for Retrofit.
 Step 4: Dependencies
 
 Ensure you have these dependencies with the same version:
-// Picasso
+
+// Picasso: Images loading
+
 implementation("com.squareup.picasso:picasso:2.9.0")
 
-// Retrofit
+// Retrofit: Networking Library
+
 implementation("com.squareup.retrofit2:retrofit:2.9.0")
 
 // JSON converter
@@ -58,6 +61,10 @@ Step 9: NewsDetailsActivity Setup
 
 Create a new activity, NewsDetailsActivity, to display complete news articles.
 Work on the XML and Java files for NewsDetailsActivity.
-Conclusion
 
-Congratulations! You've successfully built a news application using a REST API in Android Studio. This guide covers setting up the API, using libraries for image loading and API requests, handling responses, and displaying news articles with complete details.
+step 10: Implement Categories in the MainActivity Activity.
+
+Implement View OnClickListener and method OnClick Method.
+
+
+Conclusion: Congratulations! You've successfully built a news application using a REST API in Android Studio. This guide covers setting up the API, using libraries for image loading and API requests, handling responses, and displaying news articles with complete details.
