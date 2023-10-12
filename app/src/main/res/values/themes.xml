@@ -3,7 +3,7 @@
     <style name="Base.Theme.NewsApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!--         Customize your light theme here. -->
         <item name="colorPrimary">@color/blue</item>
-        <item name="fontFamily">@font/gabarito_bold</item>
+        <item name="fontFamily">@font/gabarito_medium</item>
     </style>
 
     <style name="Theme.NewsApplication" parent="Base.Theme.NewsApplication" />
