@@ -4,41 +4,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/light_bg"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Toolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/blue"
-        >
+        android:background="@color/blue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="closeApp"
+            android:padding="12sp"
+            android:src="@drawable/back_ios"
+            app:tint="@color/white" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="India News todays"
             android:textColor="@color/white"
             android:textSize="22sp"
-            android:textStyle="bold"
-            />
-        <ImageView
-            android:layout_width="28sp"
-            android:layout_height="28sp"
-            android:src="@drawable/kebab"
-            android:layout_gravity="end"
-            android:layout_marginEnd="8dp"
-            />
+            android:textStyle="bold" />
 
     </Toolbar>
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--business entertainment general health science sports technology-->
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="business"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="entertainment"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="general"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="health"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="science"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="sports"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:text="technology"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_main"
-        android:padding="4dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        >
+        android:layout_marginBottom="8dp"
+        android:padding="4dp"
+        tools:ignore="MissingClass">
+
     </androidx.recyclerview.widget.RecyclerView>
 
 

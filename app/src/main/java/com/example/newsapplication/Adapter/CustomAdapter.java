@@ -46,7 +46,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder>{
             Picasso.get().load(headlines.get(position).getUrlToImage()).into(holder.image_headline);
         }
 
-        // This will help me in Attendance Application
+
 //        holder.cardView.setOnClickListener(new View.OnClickListener() {  // Getting error because of this
 //            @Override
 //            public void onClick(View v) {
@@ -54,6 +54,7 @@ public class CustomAdapter extends RecyclerView.Adapter<CustomViewHolder>{
 //            }
 //        });
 
+        // This will help me in Attendance Application
         holder.cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
