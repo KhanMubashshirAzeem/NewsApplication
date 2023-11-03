@@ -1,6 +1,8 @@
 Building a News Application Using REST API
 
-Application Video : https://www.linkedin.com/feed/update/urn:li:activity:7118079371315167233/
+================  **This application is completed.**  ==================
+
+Application Output: https://www.linkedin.com/feed/update/urn:li:activity:7118079371315167233/
 
 Step 1: Get the API Key
 
