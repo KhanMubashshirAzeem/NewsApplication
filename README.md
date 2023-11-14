@@ -1,6 +1,5 @@
 Building a News Application Using REST API
-
-================  **This application is completed.**  ==================
+=========  **Complete Steps for Implementing the Application**  ==========
 
 Application Output: https://www.linkedin.com/feed/update/urn:li:activity:7118079371315167233/
 
